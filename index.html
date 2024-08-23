@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="icon" href="/images\favicon-32x32.png"/>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <div class="left-up">
+                <span>Rock</span>
+                <span>Paper</span>
+                <span>Scissors</span>
+            </div>
+            <div class="right-up">
+                <div class="counter"></div>
+            </div>
+        </div>
+        <div class="middle">
+            <img  src="./bg-triangle.svg" alt="triangle" class="triangle "/>
+            <img  src="./icon-paper.svg" alt="paper" class="paper chance " data-choice="paper">
+            <img  src="./icon-rock.svg" alt="rock" class="rock chance " data-choice="rock">
+            <img  src="./icon-scissors.svg" alt="scissors" class=" scissors chance" data-choice="scissors">
+        </div>
+       <div class="RULES">
+        <img src="./image-rules.svg" alt="" class="rule">
+       </div>
+        <div class="bg-before"></div>
+        <div class="picked">
+            <p class="YOU-PICKED"></p>
+            <p class="THE-HOUSE-PICKED "></p>
+        </div>
+        <div class="resultAgain">
+            <p class="result"></p>
+            <p class="again">PLAY AGAIN</p>
+        </div>
+
+        <div class="rules">Rules</div>
+    </div>
+    <script src="./node.js"></script>
+</body>
+</html>
