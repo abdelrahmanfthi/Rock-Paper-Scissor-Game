@@ -24,16 +24,5 @@ This is a classic "Rock, Paper, Scissors" game built using **HTML**, **CSS**, an
 
 ## 🌐 Live Demo
 
-You can try the game directly through this [Live Demo](#).
+You can try the game directly through this [Live Demo]( https://abdelrahmanfthi.github.io/Rock-Paper-Scissor-Game/).
 
-## 📷 Screenshots
-
-Include screenshots of the game interface here (if available).
-
-## 🚀 Getting Started
-
-To get a local copy up and running, follow these simple steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/rock-paper-scissors.git
